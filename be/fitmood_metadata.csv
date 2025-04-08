@@ -1,0 +1,6 @@
+metadata.append({
+    "image": data["image_name"],
+    "category": item.get("category_name", "Unknown"),
+    "style": "Casual",
+    "color": "Unknown"
+})
