@@ -1,6 +1,103 @@
-metadata.append({
-    "image": data["image_name"],
-    "category": item.get("category_name", "Unknown"),
-    "style": "Casual",
-    "color": "Unknown"
-})
+image,category,style,color
+15970.jpg,Shirts,Casual,Navy Blue
+39386.jpg,Jeans,Casual,Blue
+59263.jpg,Watches,Casual,Silver
+21379.jpg,Track Pants,Casual,Black
+53759.jpg,Tshirts,Casual,Grey
+1855.jpg,Tshirts,Casual,Grey
+30805.jpg,Shirts,Ethnic,Green
+26960.jpg,Shirts,Casual,Purple
+29114.jpg,Socks,Casual,Navy Blue
+30039.jpg,Watches,Casual,Black
+9204.jpg,Casual Shoes,Casual,Black
+48123.jpg,Belts,Casual,Black
+18653.jpg,Flip Flops,Casual,Black
+47957.jpg,Handbags,Casual,Blue
+46885.jpg,Flip Flops,Casual,Navy Blue
+12369.jpg,Shirts,Formal,Purple
+29928.jpg,Watches,Casual,Black
+42419.jpg,Tops,Casual,White
+51832.jpg,Bra,Casual,Beige
+47359.jpg,Handbags,Casual,Brown
+17429.jpg,Watches,Casual,Black
+12967.jpg,Sandals,Casual,Black
+6842.jpg,Shoe Accessories,Casual,Black
+13089.jpg,Sweatshirts,Sports,Grey
+18461.jpg,Deodorant,Casual,White
+9036.jpg,Formal Shoes,Formal,Black
+48311.jpg,Bracelet,Casual,Bronze
+7990.jpg,Tshirts,Sports,Navy Blue
+56019.jpg,Lipstick,Casual,Brown
+21977.jpg,Handbags,Casual,Brown
+37812.jpg,Shirts,Formal,Navy Blue
+4729.jpg,Tshirts,Casual,Green
+56825.jpg,Shirts,Casual,Brown
+39988.jpg,Casual Shoes,Casual,White
+59051.jpg,Flats,Casual,Black
+20099.jpg,Kurtas,Ethnic,Green
+58183.jpg,Handbags,Casual,White
+29742.jpg,Handbags,Casual,Teal
+51658.jpg,Watches,Casual,Copper
+3954.jpg,Tshirts,Casual,Pink
+18839.jpg,Belts,Formal,Black
+2886.jpg,Flats,Casual,Brown
+23278.jpg,Watches,Casual,Off White
+28690.jpg,Kurtas,Ethnic,Beige
+8580.jpg,Waistcoat,Casual,Grey
+3168.jpg,Sports Shoes,Sports,White
+18005.jpg,Shorts,Sports,Black
+17871.jpg,Briefs,Casual,Maroon
+9452.jpg,Shirts,Formal,Red
+38402.jpg,Belts,Casual,Black
+44984.jpg,Watches,Casual,White
+10268.jpg,Formal Shoes,Formal,Black
+45856.jpg,Kurtas,Ethnic,Brown
+32138.jpg,Briefs,Casual,Blue
+59435.jpg,Formal Shoes,Formal,Black
+5891.jpg,Tshirts,Casual,Black
+38630.jpg,Tshirts,Casual,Purple
+4943.jpg,Shirts,Casual,White
+11188.jpg,Watches,Casual,Silver
+10866.jpg,Tshirts,Casual,Red
+59607.jpg,Sarees,Ethnic,Grey
+15528.jpg,Tshirts,Casual,Black
+45258.jpg,Watches,Casual,Black
+42841.jpg,Handbags,Casual,Beige
+22198.jpg,Casual Shoes,Casual,Black
+29570.jpg,Casual Shoes,Casual,Purple
+43993.jpg,Perfume and Body Mist,Casual,Pink
+6628.jpg,Sports Shoes,Sports,White
+54924.jpg,Shorts,Casual,Blue
+26538.jpg,Casual Shoes,Casual,Red
+35913.jpg,Handbags,Casual,Black
+49495.jpg,Casual Shoes,Casual,Khaki
+9660.jpg,Shirts,Casual,Pink
+2288.jpg,Tshirts,Sports,Black
+23876.jpg,Sweatshirts,Casual,Blue
+18237.jpg,Tshirts,Casual,Red
+54118.jpg,Heels,Casual,Black
+2872.jpg,Heels,Casual,Brown
+49653.jpg,Tops,Casual,Green
+8574.jpg,Sandals,Casual,Pink
+16957.jpg,Sunglasses,Casual,Black
+19123.jpg,Flip Flops,Casual,Silver
+13419.jpg,Tshirts,Casual,Pink
+17885.jpg,Innerwear Vests,Casual,Grey
+43369.jpg,Flip Flops,Casual,Black
+48781.jpg,Pendant,Casual,Silver
+44970.jpg,Watches,Casual,White
+56489.jpg,Nail Polish,Casual,Bronze
+39524.jpg,Laptop Bag,Casual,Orange
+33822.jpg,Sports Shoes,Sports,White
+58513.jpg,Tops,Casual,Off White
+25947.jpg,Scarves,Casual,Brown
+52029.jpg,Rain Jacket,Casual,Coffee Brown
+5865.jpg,Tshirts,Casual,Black
+39716.jpg,Dresses,Casual,Blue
+25349.jpg,Briefs,Casual,Red
+11940.jpg,Sandals,Casual,Black
+55802.jpg,Night suits,Casual,White
+29584.jpg,Tshirts,Casual,Black
+43967.jpg,Perfume and Body Mist,Casual,Red
+28456.jpg,Skirts,Sports,Blue
+34009.jpg,Tops,Casual,Black

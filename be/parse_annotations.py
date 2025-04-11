@@ -2,23 +2,25 @@ import json
 import os
 import pandas as pd
 
-annotation_dir = "./annotations/train/"
-metadata = []
+# Load your existing styles.csv
+try:
+    df = pd.read_csv("styles.csv")  # Replace with your CSV filename if different
+except FileNotFoundError:
+    print("❌ styles.csv not found. Make sure it's in the same directory as this script.")
+    exit()
 
-for filename in os.listdir(annotation_dir):
-    if filename.endswith(".json"):
-        with open(os.path.join(annotation_dir, filename), "r") as f:
-            data = json.load(f)
-            for item in data["item1"]:
-                metadata.append({
-                    "image": data["image_name"],
-                    "category": item.get("category_name", "Unknown"),
-                    "style": "Casual",  # You can modify this manually or label later
-                    "color": "Unknown"  # Optional: Can extract from file name or manually
-                })
+# Clean and format metadata
+metadata = pd.DataFrame({
+    "image": df["id"].astype(str) + ".jpg",                     # Construct image filename
+    "category": df["articleType"],                              # Clothing category
+    "style": df["usage"].fillna("Casual"),                      # Usage (fallback = Casual)
+    "color": df["baseColour"].fillna("Unknown")                # Color (fallback = Unknown)
+})
 
-# Save to CSV
-df = pd.DataFrame(metadata)
-df.to_csv("fitmood_metadata.csv", index=False)
+# Drop entries with missing image or category
+metadata = metadata.dropna(subset=["image", "category"])
+
+# Save to a new CSV file
+metadata.to_csv("fitmood_metadata.csv", index=False)
 
 print("✅ Metadata parsed and saved to fitmood_metadata.csv")

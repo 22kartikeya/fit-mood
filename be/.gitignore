@@ -13,6 +13,10 @@ venv/
 env/
 .DS_Store
 
+# Ignore image folders
+downloaded_images/
+processed_images/
+
 # Jupyter or IPython
 .ipynb_checkpoints/
 
